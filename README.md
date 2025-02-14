@@ -17,7 +17,7 @@ Create the virtual environment and install the dependencies:
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-.venv/bin/pip install -r requirements.txt
+poetry install
 ```
 
 Here is a summary of what this repository will use:
