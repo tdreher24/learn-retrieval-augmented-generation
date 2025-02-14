@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learn-retrieval-augmented-generation"
+version = "0.1.0"
+description = "Retrieval Augmented Generation with LLAMA"
+authors = ["alfredodeza"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.0"
+numpy = "^1.24.0"
+ipykernel = "^6.29.0"
+ipywidgets = "^8.1.1"
+qdrant-client = "^1.9.0"
+sentence-transformers = "^2.2.2"
+openai = "^1.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
